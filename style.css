@@ -27,7 +27,8 @@ section {
 .content {
   padding: 25px;
   /* background: linear-gradient(0.25turn, white, #E8E8E8); */
-  background-image: url("images/diferpan.jpeg");
+  /*background-image: url("images/diferpan.jpeg");*/
+  background-color: #EAE6E5;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
@@ -59,6 +60,7 @@ header {
   margin: 0 auto;
   border-radius: 10px;
   background-color: #F2DFBE;
+  font-size: 18px;
 }
 
 .contact {
