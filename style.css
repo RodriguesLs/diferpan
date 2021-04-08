@@ -14,24 +14,30 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
+  display: none;
 }
 
 .flex_div {
-  display: flex;
+  display: flow-root;
 }
 
 .slider {
   text-align: justify;
+  font-size: 20px;
+}
+
+.styled_h3 {
+  font-size: 18px; 
 }
 
 .content {
-  padding: 25px;
   /* background: linear-gradient(0.25turn, white, #E8E8E8); */
   /*background-image: url("images/diferpan.jpeg");*/
   background-color: #EAE6E5;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
+  padding: 0px;
 }
 
 header {
@@ -42,21 +48,21 @@ header {
 
 .title {
   margin-bottom: 0;
-  font-size: 5em;
-  text-shadow: 6px 0px black;
+  font-size: 3em;
+  text-shadow: 4px 0px black;
   letter-spacing: 7px;
 }
 
 .subtitle {
   color: #fff;
   margin-top: 0;
-  font-size: 2.5em;
+  font-size: 1.5em;
   text-shadow: 0 0 5px orange;
 }
 
 .div_slider {
   padding: 10px;
-  width: 50%;
+  width: 90%;
   margin: 0 auto;
   border-radius: 10px;
   background-color: #F2DFBE;
@@ -68,6 +74,7 @@ header {
   align-items: center;
   justify-content: center;
   margin-top: 3em;
+  flex-direction: column;
 }
 
 .ul_contact {
