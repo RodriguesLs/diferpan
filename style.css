@@ -17,8 +17,8 @@ section {
   display: none;
 }
 
-.flex_div {
-  display: flow-root;
+.flex-div {
+  display: flex;
 }
 
 .slider {
@@ -83,4 +83,30 @@ header {
 
 .ul_contact li {
   margin-bottom: 1em;
+}
+
+.gallery{
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .div_background {
+     display: block;
+  }
+
+  .contact{
+    flex-direction: row-reverse;
+  }
+
+    .div_slider{
+      width: 50%;
+    }
+
+    iframe{width: 400px; height: 170px;}
+
+    .gallery{
+      display: flex;
+      margin-top: 3em;
+      flex-direction: column;
+    }
 }
