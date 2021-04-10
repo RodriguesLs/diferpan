@@ -59,10 +59,11 @@
     back = document.querySelector(".div_background");
     
     function changeBackground() {
-        console.log("here")
         back.style.backgroundImage = `url(images/${Math.floor(Math.random() * 11)}.jpeg)`;
     }
 
-    setInterval(changeBackground, 5000);
+    if (window.innerWidth > 768) {
+        setInterval(changeBackground, 5000);
+    }
 </script>
 </html>
