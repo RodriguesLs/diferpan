@@ -1,12 +1,14 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #EAE6E5;
 }
 
 section {
   box-sizing: border-box;
   width: 100%;
   height: 100vh;
+  border-bottom: 3px dotted gray;
 }
 
 .div_background {
@@ -19,11 +21,12 @@ section {
 
 .flex-div {
   display: flex;
+  flex-direction: column;
 }
 
 .slider {
   text-align: justify;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .styled_h3 {
@@ -31,12 +34,6 @@ section {
 }
 
 .content {
-  /* background: linear-gradient(0.25turn, white, #E8E8E8); */
-  /*background-image: url("images/diferpan.jpeg");*/
-  background-color: #EAE6E5;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left;
   padding: 0px;
 }
 
@@ -66,14 +63,14 @@ header {
   margin: 0 auto;
   border-radius: 10px;
   background-color: #F2DFBE;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .contact {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 3em;
+  margin-top: 1em;
   flex-direction: column;
 }
 
@@ -82,11 +79,22 @@ header {
 }
 
 .ul_contact li {
-  margin-bottom: 1em;
+  margin-bottom: .3em;
 }
 
-.gallery{
-  flex-direction: column;
+.center {
+  text-align: center;
+}
+
+.margin-top-2 {
+  margin-top: 2em;
+}
+
+.gallery img {
+  margin-bottom: 10px;
+  border: 2px solid black;
+  box-sizing: border-box;
+  border-radius: 10px;
 }
 
 @media (min-width: 768px) {
@@ -98,15 +106,10 @@ header {
     flex-direction: row-reverse;
   }
 
-    .div_slider{
-      width: 50%;
-    }
+  .div_slider{
+    width: 50%;
+  }
 
-    iframe{width: 400px; height: 170px;}
+  iframe{width: 400px; height: 170px;}
 
-    .gallery{
-      display: flex;
-      margin-top: 3em;
-      flex-direction: column;
-    }
 }
