@@ -24,7 +24,7 @@
             </div>
         </div>
         <div class="center margin-top-2">
-          <a href="#gallery">Veja umas fotos.</a>
+          <a href="#gallery" class="gallery_link">Veja umas fotos.</a>
         </div>
 
     <address>
@@ -44,7 +44,7 @@
     <section id="gallery">
         <div class="gallery center">
           <h3>Galeria de fotos</h3>
-          <img src="images/poste.jpeg" width="340px" height="380px">
+          <img src="images/0.jpeg" width="340px" height="380px">
           <img src="images/1.jpeg" width="340px" height="380px">
           <img src="images/2.jpeg" width="340px" height="380px">
           <img src="images/3.jpeg" width="340px" height="380px">
@@ -56,8 +56,17 @@
         </div>
     </section>
     <section class="div_background">
-        <div class="div_background"></div>
     </section>
     </div>
 </body>
+<script>
+    back = document.querySelector(".div_background");
+    
+    function changeBackground() {
+        console.log("here")
+        back.style.backgroundImage = `url(images/${Math.floor(Math.random() * 11)}.jpeg)`;
+    }
+
+    setInterval(changeBackground, 5000);
+</script>
 </html>

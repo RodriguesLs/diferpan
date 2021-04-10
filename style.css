@@ -12,7 +12,7 @@ section {
 }
 
 .div_background {
-  background-image: url("images/poste.jpeg");
+  background-image: url("images/0.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
@@ -110,6 +110,23 @@ header {
     flex-direction: row;
   }
 
+  .slider {
+    font-size: 20px;
+  }
+
+  .styled_h3 {
+    font-size: 22px;
+  }
+
+  .div_slider {
+    font-size: 20px;
+    padding: 2em;
+  }
+
+  .gallery_link {
+    display: none;
+  }
+
   #gallery {
     display: none;
   }
@@ -118,7 +135,8 @@ header {
      display: block;
   }
 
-  .contact{
+  .contact {
+    margin-top: 7em;
     flex-direction: row-reverse;
   }
 
@@ -126,6 +144,8 @@ header {
     width: 50%;
   }
 
-  iframe{width: 400px; height: 170px;}
-
+  iframe {
+    width: 520px;
+    height: 300px;
+  }
 }
