@@ -98,6 +98,22 @@ header {
 }
 
 @media (min-width: 768px) {
+  .title {
+    font-size: 5em;
+  }
+
+  .subtitle {
+    font-size: 2.5em;
+  }
+
+  .flex-div {
+    flex-direction: row;
+  }
+
+  #gallery {
+    display: none;
+  }
+
   .div_background {
      display: block;
   }
