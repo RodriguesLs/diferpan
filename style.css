@@ -99,28 +99,23 @@ header {
 
 @media (min-width: 768px) {
   .title {
-    font-size: 5em;
+    font-size: 4em;
   }
 
   .subtitle {
-    font-size: 2.5em;
+    font-size: 2em;
   }
 
   .flex-div {
     flex-direction: row;
   }
 
-  .slider {
-    font-size: 20px;
-  }
-
   .styled_h3 {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .div_slider {
-    font-size: 20px;
-    padding: 2em;
+    font-size: 16px;
   }
 
   .gallery_link {
@@ -136,7 +131,7 @@ header {
   }
 
   .contact {
-    margin-top: 7em;
+    margin-top: 2em;
     flex-direction: row-reverse;
   }
 
@@ -145,7 +140,34 @@ header {
   }
 
   iframe {
+    width: 400px;
+    height: 200px;
+  }
+
+  section {
+    border: none;
+  }
+}
+
+@media (min-width: 1400px) {
+  .title {
+    font-size: 5em;
+  }
+
+  .subtitle {
+    font-size: 2.5em;
+  }
+
+  .styled_h3 {
+    font-size: 22px;
+  }
+
+  .div_slider {
+    font-size: 18px;
+  }
+
+  iframe {
     width: 520px;
-    height: 300px;
+    height: 400px;
   }
 }
